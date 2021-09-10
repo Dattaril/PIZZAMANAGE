@@ -1,0 +1,36 @@
+2021-09-10 09:26:52.528  INFO 11476 --- [main] P.P.PIZZAManageApplicationTests          : Starting PIZZAManageApplicationTests using Java 11.0.10 on DESKTOP-HJ3MRS0 with PID 11476 (started by bose in C:\Users\bose\Downloads\PIZZAManage\PIZZAManage)
+2021-09-10 09:26:52.663  INFO 11476 --- [main] P.P.PIZZAManageApplicationTests          : No active profile set, falling back to default profiles: default
+2021-09-10 09:26:54.523  INFO 11476 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-10 09:26:54.671  INFO 11476 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 1 JPA repository interfaces.
+2021-09-10 09:26:57.999  INFO 11476 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-10 09:26:58.224  INFO 11476 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-10 09:26:58.326  INFO 11476 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-10 09:26:59.003  INFO 11476 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-10 09:26:59.011  WARN 11476 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-09-10 09:26:59.913  INFO 11476 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-10 09:26:59.987  INFO 11476 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-09-10 09:27:01.827  INFO 11476 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-10 09:27:01.855  INFO 11476 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-10 09:27:02.843  WARN 11476 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-10 09:27:04.716  INFO 11476 --- [main] P.P.PIZZAManageApplicationTests          : Started PIZZAManageApplicationTests in 13.093 seconds (JVM running for 16.067)
+2021-09-10 09:27:05.439  INFO 11476 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-10 09:27:05.450  INFO 11476 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-10 09:27:05.529  INFO 11476 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-10 09:28:03.437  INFO 9300 --- [main] P.P.PIZZAManageApplicationTests          : Starting PIZZAManageApplicationTests using Java 11.0.10 on DESKTOP-HJ3MRS0 with PID 9300 (started by bose in C:\Users\bose\Downloads\PIZZAManage\PIZZAManage)
+2021-09-10 09:28:03.445  INFO 9300 --- [main] P.P.PIZZAManageApplicationTests          : No active profile set, falling back to default profiles: default
+2021-09-10 09:28:05.314  INFO 9300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-10 09:28:05.455  INFO 9300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 1 JPA repository interfaces.
+2021-09-10 09:28:08.240  INFO 9300 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-10 09:28:08.466  INFO 9300 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-10 09:28:08.604  INFO 9300 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-10 09:28:09.191  INFO 9300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-10 09:28:09.199  WARN 9300 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-09-10 09:28:10.206  INFO 9300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-10 09:28:10.297  INFO 9300 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-09-10 09:28:11.619  INFO 9300 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-10 09:28:11.645  INFO 9300 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-10 09:28:12.617  WARN 9300 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-10 09:28:14.600  INFO 9300 --- [main] P.P.PIZZAManageApplicationTests          : Started PIZZAManageApplicationTests in 12.103 seconds (JVM running for 15.034)
+2021-09-10 09:28:14.905  INFO 9300 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-10 09:28:14.915  INFO 9300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-10 09:28:14.956  INFO 9300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
